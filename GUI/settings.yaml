@@ -1,0 +1,28 @@
+dimensions:
+  inner_radius: 60
+  max_deflection: 30
+  min_deflection: -30
+  outer_radius: 100
+gear_ratios:
+  x: 1
+  y: 1
+  z: 1
+motor_configuration:
+  Angular_mot: 0
+  Encoder_Steps/rot_Angular: 4000
+  Encoder_Steps/rot_Radial: 8000
+  Motor_3: 2
+  Motor_4: 3
+  Radial_mot: 1
+  Steps/rot_2: 800
+  Steps/rot_3: 800
+  Steps/rot_Angular: 800
+  Steps/rot_Radial: 20000
+movement_configuration:
+  Angular_mot_speed: 50
+  Delay_time: 1
+  Radial_mot_speed: 100000
+  phi_dir: 14
+  radial_dir: 10312
+serial_configuration:
+  baud: 115200
